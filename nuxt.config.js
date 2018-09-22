@@ -20,7 +20,8 @@ module.exports = {
   loading: { color: '#3B8070' },
 
   modules: [
-    '@nuxtjs/font-awesome'
+    '@nuxtjs/font-awesome',
+    '@nuxtjs/bulma',
   ],
   /*
   ** Build configuration
