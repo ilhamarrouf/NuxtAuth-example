@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: nuxt-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: nuxt-ingress-ip
+  labels:
+    app: nuxt
+spec:
+  backend:
+    serviceName: nuxt
+    servicePort: 3000
+  rules:
+  - host: nuxt.ilhamarrouf.systems

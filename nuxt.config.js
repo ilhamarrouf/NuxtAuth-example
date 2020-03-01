@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
 
@@ -23,7 +23,7 @@ module.exports = {
     '@nuxtjs/font-awesome',
     '@nuxtjs/bulma',
     '@nuxtjs/axios',
-    '@nuxtjs/auth'
+    '@nuxtjs/auth',
   ],
 
   axios: {
